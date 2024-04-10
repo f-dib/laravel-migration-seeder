@@ -2,5 +2,9 @@
 
 
 @section('content')
-    contenuto della pagina
+    @foreach($train as $trainItems)
+        <div>
+            {{ $trainItems['departure_date'] }}
+        </div>
+    @endforeach
 @endsection
