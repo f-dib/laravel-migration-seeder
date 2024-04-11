@@ -1,1 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
+
+@import './partials/header';
+
+.my_ticket{
+    margin: auto;
+    width: 60%;
+    height: 120px;
+    border: 1px solid blue;
+}
+
+.my_hour{
+    width: 40%;
+}
+
+.my_date{
+    width: 40%;
+}
